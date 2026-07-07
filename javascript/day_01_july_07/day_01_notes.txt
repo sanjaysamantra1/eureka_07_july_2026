@@ -51,3 +51,10 @@ Product List page
 4. To Open/Run HTML File in Browser 
    a. install vscode extension ( open in browser / Live Server )
    b. alt+b    /   alt+shift+b
+
+
+
+Assignments
+===========
+1. Display list of stateNames  ( ol,li )
+2. Display List of StateNames as a dropdown
