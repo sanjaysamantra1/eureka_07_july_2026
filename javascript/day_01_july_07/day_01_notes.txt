@@ -19,5 +19,35 @@ Tools & Softwares
 
 
 
+Web Development
+===============
+-Developing Websites
 
-   
+
+1. FrontEnd : User Interface ( Look & Feel )
+         HTML : Content ( button, div, paragraph, image, table, list, form , audio )
+         CSS : Styling ( Border , background, color, margin, padding )
+         Bootstrap : CSS Library ( pre-defined CSS classes )
+         Javascript : Behaviour of a webpage 
+         Angular/React/Vue : Javascript frameworks ( RAD , CLI , Databinding , Routing , Form )
+
+2. BackEnd : Develop REST APIs
+  
+
+3. DataBase : Holds the data ( oracle , mySql , mongoDB )
+
+
+
+
+Product List page
+=================
+1. Create an HTML File ( product_list.html)
+
+2. !  ( Emmet / shortcuts ) add boilerplate code 
+    https://docs.emmet.io/cheat-sheet/
+
+3. Add HTML , CSS, Javascript Code in product_list.html
+
+4. To Open/Run HTML File in Browser 
+   a. install vscode extension ( open in browser / Live Server )
+   b. alt+b    /   alt+shift+b
