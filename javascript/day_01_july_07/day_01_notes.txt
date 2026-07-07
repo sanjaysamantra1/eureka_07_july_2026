@@ -10,8 +10,10 @@ Tools & Softwares
    https://code.visualstudio.com/download
 
 
-3. Create GitHub Account 
-   https://github.com/sanjaysamantra1/eureka_07_july_2026
+3. Create GitHub Account , install git software & clone the below Repository
+   a. install git software (https://git-scm.com/install/windows) 
+   b. clone the folder
+       git clone https://github.com/sanjaysamantra1/eureka_07_july_2026
 
 
 
