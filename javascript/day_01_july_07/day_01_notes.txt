@@ -1,0 +1,19 @@
+Tools & Softwares
+=================
+1. Nodejs 
+   https://nodejs.org/en/download
+
+   To verify NodeJS is installed, Run the below command in terminal/Command prompt
+   node -v
+
+2. Visual Studio Code (Code Editor)
+   https://code.visualstudio.com/download
+
+
+3. Create GitHub Account 
+   https://github.com/sanjaysamantra1/eureka_07_july_2026
+
+
+
+
+   
