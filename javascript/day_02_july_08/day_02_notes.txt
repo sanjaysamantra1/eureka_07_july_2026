@@ -13,6 +13,8 @@ select>option*10{State-$}
 
 table>tbody>tr*10>td*5{Data-$}
 
+button.btn.btn-primary
+
 
 
 How to use CSS in HTML files
@@ -22,10 +24,42 @@ How to use CSS in HTML files
    ex: <h1 style="color: red;">Let's Learn CSS</h1>
 
 2. internal CSS
-   <style>  Tag  , Page/File Level css
+   <style>  Tag , Page/File Level css
 
 3. external CSS ( Application/Project Level css)
    a. create a separate .css file ( styles.css )
    b. include that css file into HTML file using <link>
       <link rel="stylesheet" href="style.css">
 
+
+
+
+How to use Bootstrap in HTML files
+==================================
+-Bootstrap is a CSS Library
+-Has lot of pre-defined css classes
+-Maintained by Twitter
+-Bootstrap 5 is the latest version 
+-Official Link: https://getbootstrap.com/
+
+
+Add CDN link of Bootstrap in HTML file using <link>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+Types of Javascript
+===================
+1. internal Javascript
+   <script></script>  Page/File Level 
+
+2. external Javascript
+   a. create a separate .js file and write javascript code there
+   b. include that .js file into HTML file using <script></script>
+
+
+
+Assignments
+===========
+1. create a student table using bootstrap to display student details ( roll , name , subject, mark )
+2. Display few products(3-4 cards) using bootstrap card using static content
