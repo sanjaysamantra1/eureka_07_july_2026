@@ -1,0 +1,31 @@
+Emmets / Shortcuts
+==================
+https://docs.emmet.io/cheat-sheet/
+
+
+!   HTML-5 code
+
+h1{Let's learn Shortcuts}
+
+ul>li*5{State-$}
+
+select>option*10{State-$}
+
+table>tbody>tr*10>td*5{Data-$}
+
+
+
+How to use CSS in HTML files
+============================
+1. inline CSS
+   style attribute, Element/Tag level css
+   ex: <h1 style="color: red;">Let's Learn CSS</h1>
+
+2. internal CSS
+   <style>  Tag  , Page/File Level css
+
+3. external CSS ( Application/Project Level css)
+   a. create a separate .css file ( styles.css )
+   b. include that css file into HTML file using <link>
+      <link rel="stylesheet" href="style.css">
+
