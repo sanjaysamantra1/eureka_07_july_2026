@@ -7,3 +7,53 @@ Math :  max(), min(), sqrt(), cbrt()
 Array : push(), pop(), shift(), reduce(), filter()
 Object : assign(), groupBy(), keys(), values()
 JSON : stringify() , parse()
+
+
+
+window methods
+==============
+alert() : Display Informative Message
+          Message + OK
+
+confirm() : User Confirmation  
+            Message + Ok(true)  cancel(false)
+
+prompt() : To Collect User input
+           inputBox + message + ok,cancel            
+
+
+
+
+Datatypes
+=========
+1. Primitive 
+        number : 5, 5.4 , -2.3 , 8.111111
+        string : 'sachin' , "virat" , '10' , "true" , ""
+        boolean : true, false
+        undefined : undefined
+        bigint
+        symbol
+
+2. non-primitive
+        Object :  {}     []
+
+
+
+undefined  vs null
+====================
+1. when a variable is declared without any value, that variable by default will have 'undefined' value
+   where as 'null' is a valid value used by developers.
+    let a;
+    let b = null;
+    console.log('a: ', a); // undefined
+    console.log('b: ', b); // null
+
+2. typeof undefined;  // undefined
+   typeof null;    // object    
+
+
+
+Assignments
+===========
+1. ask user to enter 2 numbers, find the addition,subtraction,multiplication of those 2 numbers
+2. ask user to enter 2 numbers, find which number is greater
