@@ -1,0 +1,17 @@
+<script>
+    // var supports only global and function scope, it doesnt suppport block scope
+    function test() {
+        if (true) {
+            var a = 10;
+            let b = 20;
+            console.log('inside block a: ', a)
+            console.log('inside block b: ', b)
+        }
+        console.log('outside block scope a: ', a); // 
+        console.log('outside block scope b: ', b); // ReferenceError: b is not defined
+    }
+    test();
+
+    // even though 'a' is declared inside a block, it is visible outside the block
+    // whicj clearly says var doesnt support block scope
+</script>

@@ -1,0 +1,28 @@
+<script>
+    // scope chain
+    var a = 10;  // Global variables
+    let b = 20;
+    const c = 30;
+    console.log(`Global Scope, a is: ${a}`);
+    console.log(`Global Scope, b is: ${b}`);
+    console.log(`Global Scope, c is: ${c}`);
+
+    function test() {
+        /* var a = 100;  // Function variables
+        let b = 200;
+        const c = 300; */
+        console.log(`Function Scope, a is: ${a}`);
+        console.log(`Function Scope, b is: ${b}`);
+        console.log(`Function Scope, c is: ${c}`);
+
+        if (true) {
+            /* var a = 1000;  // Block variables
+            let b = 2000;
+            const c = 3000; */
+            console.log(`Block Scope, a is: ${a}`);
+            console.log(`Block Scope, b is: ${b}`);
+            console.log(`Block Scope, c is: ${c}`);
+        }
+    }
+    test();
+</script>

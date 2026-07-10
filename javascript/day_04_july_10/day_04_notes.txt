@@ -1,0 +1,46 @@
+Javascript : Programming Language, follows ECMAScript standards
+ECMA : European Computer menufecturer Association
+ECMAScript : Set of standards, followed by Javascript
+
+
+ES_5 : 2015 
+ES_6 : June 2015  ( let , const , class, extends, spread, Rest, module )
+ES_7 : 2016
+ES_8 : 2017
+ES_9 : 2018
+...........
+ES_17 : 2026
+
+
+
+Variables
+=========
+-Variables are containers for storing data values.
+ variable is a name of memory location.
+
+-variable in javascript can be declared  by using either one of the below 3 keywords:
+    1. var
+    2. let
+    3. const
+
+
+      var						let						 const
+======================================================================
+1.since begining		 1.ECMASCRIPT-6(2015)		1.ECMASCRIPT-6(2015)
+2.value can be changed   2.value can be changed     2.cann't be changed
+3.initialization is		 3.initialization is		3.mandatory
+	not mandatory           not mandatory	
+4.can be redeclared		 4.cann't be redeclared		4.cann't be redeclared
+5.function/global		 5.block/function/global	5.block/function/global
+6.TDZ - No			 	 6.TDZ - Yes				6.TDZ - Yes
+
+N:p - All variables (var,let,const) are hoisted but only 'var' variables are usable/reachable before initialization.
+-let/const variables are not reachable/usable before initialization (Temporal Dead Zone)
+
+
+
+Variable Scope
+==============
+1. Global 
+2. Function
+3. Block
