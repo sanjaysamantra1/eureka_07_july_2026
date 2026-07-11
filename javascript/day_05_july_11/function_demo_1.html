@@ -1,0 +1,21 @@
+<script>
+    // 1. function declaration
+    add(2, 3); // hoisting
+    function add(a, b) {
+        console.log(`Addition of ${a} and ${b} is ${a + b}`)
+    }
+    add(10, 20);
+
+    // 2. function expression
+    // sub(20,10)
+    var sub = function (a, b) {
+        console.log(`Subtraction of ${a} and ${b} is ${a - b}`)
+    }
+    sub(20, 10)
+
+    // 3. arrow function ( 2015 - ES_6 )
+    var mul = (a, b) => {
+        console.log(`Multiplication of ${a} and ${b} is ${a * b}`)
+    }
+    mul(20, 10)
+</script>

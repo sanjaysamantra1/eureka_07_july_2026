@@ -1,0 +1,11 @@
+<script>
+    console.log(`Global a is ${a}`); // undefined
+    var a = 10;
+    function test() {
+        console.log(`Function a is ${a}`); // 10
+        a = 20;
+        console.log(`Function a is ${a}`); // 20
+    }
+    test();
+    console.log(`Global a is ${a}`); // 20
+</script>

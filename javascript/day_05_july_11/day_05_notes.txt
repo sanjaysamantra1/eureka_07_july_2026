@@ -1,0 +1,60 @@
+How javascript Works
+====================
+-Javascript Code gets executed in 2 steps
+    1. Memory Creation ( Memory Creation happens for variables and functions)
+    2. Code Execution ( Code gets executed line by line )
+
+-Global Execution Context ( anonymous )
+-Function Execution Context ( function name )
+
+
+Hoisting
+========
+-In memory creation phase javascript creates memory for all(var,let,const) variables
+ it assigns 'undefined' value only for 'var' variables
+-this is called hoisting
+-a variables can be accessed before its actual initialization
+
+
+Temporal Dead zone
+==================
+-In memory creation phase javascript creates memory for all(var,let,const) variables
+it assigns 'undefined' value only for 'var' variables, let& const variables will have no value
+-those varables cann't be accessed until they are initialized with actual value
+-this is called TDZ
+
+
+
+functions
+=========
+1. pre-defined:
+    -these functions are already there, developers just use them
+    -console.log(), window.alert()
+2. user-defined : developers write the functions and use them
+
+
+1. Function Declaration
+2. Function expression
+3. Arrow Function
+
+
+
+Arrow Function
+==============
+-Shorter in syntax
+-anonymous
+-are not hoisted
+-function keyword is not used
+-function body is optional
+-return is optional
+ex: let res = arr.map((ele) => ele + 5);
+
+HigherOrder Function : A function that takes another function as arguement
+CallBack Function : A function that is passed as arguement to another function
+
+in this example map() is higherOrder and incrementby5() is callback function
+    
+    function incrementBy5(ele) {
+        return ele + 5;
+    }
+    let res = arr.map(incrementBy5);
