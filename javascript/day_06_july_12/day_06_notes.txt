@@ -18,3 +18,21 @@ Arrow function : this - where the function is written (Lexical Scope)
 Arrow function benefits
 ========================
 -it uses 'this' value from Lexical scope / outer scope
+
+
+
+Assignments
+============
+1. calculateSimpleInterest(principal, rateOfInterest, time)
+
+2. calculatePizzaBill(pricePerPizza, quantity)
+   Rule:
+    10% discount if quantity > 5
+    GST = 5%
+    
+3. calculateGrade(percentage)
+    90+ : A
+    80+ : B
+    70+ : C
+    60+ : D
+    Below 60 : Fail

@@ -1,0 +1,22 @@
+<script>
+    class Student {
+        firstName = 'Anji';
+        lastName = 'Annavarapu';
+        fullName1() {
+            console.log('fullname-1: ', this); // this = Student
+            console.log(this.firstName, this.lastName)
+        }
+        fullName2 = () => {
+            console.log('fullname-2: ', this); // this = Student
+            console.log(this.firstName, this.lastName)
+        }
+    }
+    let stdObj = new Student();
+    stdObj.fullName1(); // Regular = how the function is called( stdObj) , this = stdObj
+    stdObj.fullName2(); // arrow = where the function written (Student), this = student
+
+    setTimeout(stdObj.fullName1, 5000);  // this = window
+    setTimeout(stdObj.fullName2, 10000);
+
+    // setTimeout is HigherOrder, fullName1 is a callback
+</script>
