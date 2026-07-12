@@ -1,0 +1,10 @@
+this keyword
+=============
+-'this' refers to the object that is executing the current function.
+-It's value is determined at runtime.
+
+
+Arrow function limitations
+=========================
+1. arrow functions shouldn't be used as object methods.
+2. arrow function shouldn't be used as event listeners

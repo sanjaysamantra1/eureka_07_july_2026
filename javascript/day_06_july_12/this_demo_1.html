@@ -1,0 +1,27 @@
+<script>
+    console.log(this);  // this = window
+
+    function test1() {
+        console.log('inside test1', this); // this = window
+    }
+    test1();
+
+    let user = {
+        firstName: 'Virat',
+        lastName: 'Kohli',
+        fullName: function () {
+            console.log(this);
+            console.log(this.firstName, this.lastName); // this = user
+        }
+    }
+    user.fullName();
+
+
+    class Student {
+        getInfo() {
+            console.log(this); // this = Student obj
+        }
+    }
+    let std1 = new Student();
+    std1.getInfo()
+</script>
