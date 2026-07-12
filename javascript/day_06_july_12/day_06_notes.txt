@@ -12,3 +12,9 @@ Arrow function limitations
 
 Regular function : this - how/where the function is invoked 
 Arrow function : this - where the function is written (Lexical Scope)
+
+
+
+Arrow function benefits
+========================
+-it uses 'this' value from Lexical scope / outer scope

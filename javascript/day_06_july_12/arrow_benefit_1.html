@@ -1,0 +1,22 @@
+<script>
+    let user = {
+        firstName: 'Virat',
+        lastName: 'Kohli',
+
+        fullName1: function () {
+            console.log(this);  // this = user
+            console.log('fullname-1: ', this.firstName, this.lastName); // this = user
+
+            function fullname_nested_1() { // this = how the function is invoked
+                console.log('Nested-1 : ', this);  // this = window
+            }
+            let fullname_nested_2 = () => { // this = where the function is written
+                console.log('Nested-2 : ', this); // this = lexical scope = user
+            }
+            fullname_nested_1();
+            fullname_nested_2();
+        }
+    }
+    user.fullName1();
+    // when any regular function is directly invoked , this = window
+</script>

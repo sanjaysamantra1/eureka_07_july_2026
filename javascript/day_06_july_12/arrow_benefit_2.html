@@ -1,0 +1,27 @@
+<script>
+    class Student {
+        firstName = 'Anji';
+        lastName = 'Annavarapu';
+        fullName1() {
+            console.log('fullname-1: ', this);
+            console.log(this.firstName, this.lastName)
+        }
+        fullName2 = () => {
+            console.log('fullname-2: ', this);
+            console.log(this.firstName, this.lastName)
+        }
+    }
+    let stdObj = new Student();
+    stdObj.fullName1(); // Regular = how the function is called( stdObj) , this = stdObj
+    stdObj.fullName2(); // arrow = where the function written (Student), this = student
+
+    let a = stdObj.fullName2;
+    a();
+    let b = a;
+    b();
+    let c = b;
+    c();
+
+    let x = stdObj.fullName1; 
+    x();
+</script>
