@@ -1,0 +1,22 @@
+<body>
+    <button id="btn1">button-1</button>
+    <button id="btn2">button-2</button>
+    <button id="btn3">button-3</button>
+
+    <script>
+        // whichever button is clicked, change that button color to RED
+
+        function changeColor() { // this = how/where the function is invoked
+            console.log(this);   // this = button-1 / button-2 / button-3
+            this.style.backgroundColor = 'red';
+        }
+
+        /* let changeColor = () => {  // this = where the function is written
+            console.log(this);     // this = window
+            this.style.backgroundColor = 'red';
+        } */
+        document.getElementById('btn1').addEventListener('click', changeColor);
+        document.getElementById('btn2').addEventListener('click', changeColor);
+        document.getElementById('btn3').addEventListener('click', changeColor);
+    </script>
+</body>
