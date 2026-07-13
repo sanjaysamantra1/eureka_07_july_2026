@@ -1,0 +1,23 @@
+<script>
+    let str = 'Hello JavaScript';
+    console.log(str.length);
+    console.log(str.toLowerCase())
+    console.log(str.toUpperCase())
+
+    console.log(str.at(1)); // e
+    console.log(str.charAt(1)); // e
+    console.log(str[1]); // e
+
+    console.log(str.at(-1)); // at() works with -ve index
+    console.log(str.charAt(-1));
+    console.log(str[-1]);
+
+    console.log(str.indexOf('a')); // 7
+    console.log(str.lastIndexOf('a')); // 9
+
+    console.log(str.includes('Java')); // true
+    console.log(str.includes('Python')); // true
+
+    console.log(str.startsWith('Hello')); // true
+    console.log(str.endsWith('Hello'));   // false
+</script>
