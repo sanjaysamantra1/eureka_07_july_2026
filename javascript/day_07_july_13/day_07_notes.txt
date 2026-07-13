@@ -1,0 +1,10 @@
+closure
+=======
+-an inner function retains access to its outer function's variables
+-closure will not be seen for outer functions
+-closure will be seen for inner functions only if inner function accesses outer function's data
+
+
+usecase
+========
+closure is used for Data Encapsulation
