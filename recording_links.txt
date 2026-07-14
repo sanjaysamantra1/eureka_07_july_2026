@@ -25,3 +25,7 @@ Passcode: Lf^hGn57
 day_07_july_13:
 https://zoom.us/rec/share/OsiqLe2epqRD8_VBOxy_aYQGdxmUF8qGtKcWCMLUlcumuErU4VKTomdeE0gIo8jB.YnuY8DNBkSBk-v75 
 Passcode: DM$JFtn7
+
+day_08_july_14:
+https://zoom.us/rec/share/4RfrQkTob4xMryYwDuFWuPI1_8T9n9UPTnKdq-byf9cS1Qny_yY1qiJqi0Qtl9i3.lzRRl0J6gH8aK309 
+Passcode: U$WVauQ0
