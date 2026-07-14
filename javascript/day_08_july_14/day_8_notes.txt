@@ -11,3 +11,23 @@ eval(); (eval() is from Window Object)
 localeCompare()
 
 N.p:- substring() cannot accept negative indexes. slice() does.
+
+
+
+
+Array
+=====
+-Arrays are used to store multiple values in a single variable.
+	ex: var arr = [10,20,30,40,50]
+-An array can hold many values under a single name, and we can access the values by referring to an index number.
+	ex: console.log(arr[1]);
+-Usually in other programming languages array stores similar type of elements,but in JavaScript array can have heterogeneous elements.
+	ex: var arr = [10,'sachin',true,{}]
+
+
+Array Iteration
+===============
+1. loop
+2. for-in
+3. for-of
+4. forEach()
