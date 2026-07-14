@@ -1,0 +1,18 @@
+<script>
+    let str = 'This is Javascript class';
+
+    let res1 = str.split(' ');
+    console.log(res1);  // ['This', 'is', 'Javascript', 'class'] // n+1
+
+    let res2 = str.split('');
+    console.log(res2);  // ['T','h','i'......]
+
+    let res3 = str.split('This');
+    console.log(res3);  // ['', ' is Javascript class']
+
+    let res4 = str.split('class');
+    console.log(res4);  // ['This is Javascript ','']
+
+    let res5 = str.split('Java');
+    console.log(res5);  // ['This is ', 'script class']
+</script>
