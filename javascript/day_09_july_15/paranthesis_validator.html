@@ -1,0 +1,27 @@
+<script>
+    /*  Ask user to enter a sequence of parantheses and validate 
+     input: '([{}])'
+     output : true */
+    let inputStr = prompt('enter a set of paranthesis', '([{}])');
+    let myMap = {
+        ")": "(",
+        "}": "{",
+        "]": "[",
+    }
+    let myStack = [];
+    let result;
+
+    for (char of inputStr) {
+        let topMostChar = myStack[myStack.length - 1];
+        if (char == '(' || char == '{' || char == '[') {
+            myStack.push(char)
+        } else if (topMostChar == myMap[char]) {
+            myStack.pop()
+        } else {
+            result = false;
+            break;
+        }
+        result = myStack.length ? false : true;
+    }
+    console.log(result);
+</script>
