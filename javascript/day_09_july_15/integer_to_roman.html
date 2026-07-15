@@ -1,0 +1,21 @@
+<script>
+    /* Ask user to enter a number and convert that to Roman value
+   input:   9    12
+   output : IX   XII */
+
+    let romanObj = {
+        "M": 1000, "CM": 900, "D": 500, "CD": 400, "C": 100, "XC": 90,
+        "L": 50, "XL": 40, "X": 10, "IX": 9, "V": 5, "IV": 4, "I": 1
+    }
+    let num = +prompt('enter a number');  // 56
+    let romanStr = '';
+    // Logic
+    for (key in romanObj) {
+        let valueFromRomanmap = romanObj[key]; // key=M valueFromRomanmap=1000
+        while (num >= valueFromRomanmap) {
+            romanStr = romanStr + key; // "LVI"
+            num = num - valueFromRomanmap; // num = 56-50=6  , 6-5=1 
+        }
+    }
+    console.log(romanStr)
+</script>
