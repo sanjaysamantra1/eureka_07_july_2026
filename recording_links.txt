@@ -33,3 +33,7 @@ Passcode: U$WVauQ0
 day_09_july_15:
 https://zoom.us/rec/share/6hLcqJy4wgIwF5wpV_LlGrLlQ5zl1H3UQI7pn29ra_NSGj2F7BPebwAGXthPuy3B.MJgUnRabEsZ7gIE9 
 Passcode: hHx%F.#3
+
+day_10_july_16:
+https://zoom.us/rec/share/_pbBAbtcMEHuAc2qRaKSQURgwY3ouisJXCQwrRBUaOCOvXH1LjJOTqpKYcyUnyMk.cZ5_FJTnoX2vmttU 
+Passcode: ?b!sLr2v
