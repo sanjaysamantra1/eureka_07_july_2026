@@ -1,0 +1,16 @@
+<script>
+    let arr = [10, 20, 30, 40, 50];
+
+    let res1 = 0;
+    for (ele of arr) {
+        res1 = res1 + ele;
+    }
+    console.log(`Sum is: ${res1}`);
+
+
+    let res2 = arr.reduce((prev, curr) => {
+        console.log(prev, curr);
+        return prev + curr;
+    }, 0);
+    console.log(`Sum is: ${res2}`);
+</script>

@@ -1,0 +1,25 @@
+<script>
+    let employees = [
+        { eId: 101, name: 'sanjay', sal: 5000, gender: 'male' },
+        { eId: 104, name: 'geeta', sal: 8000, gender: 'female' },
+        { eId: 103, name: 'sameer', sal: 7000, gender: 'male' },
+        { eId: 102, name: 'sita', sal: 9000, gender: 'female' },
+        { eId: 105, name: 'deepak', sal: 8000, gender: 'male' }
+    ];
+    // own logic
+    let obj = {};
+    for (emp of employees) {
+        let genderValue = emp.gender; // male/female
+        if (obj[genderValue]) {
+            obj[genderValue].push(emp);
+        } else {
+            obj[genderValue] = [];
+            obj[genderValue].push(emp);
+        }
+    }
+    console.log(obj);
+
+    // groupBy() from Object Class
+    let grouped_emps = Object.groupBy(employees, (emp) => emp.gender);
+    console.log(grouped_emps)
+</script>

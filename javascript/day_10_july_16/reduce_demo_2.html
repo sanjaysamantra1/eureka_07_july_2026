@@ -1,0 +1,9 @@
+<script>
+    let str = 'Javascript';
+
+    let revStr = str.split('').reduce((prev, curr) => {
+        console.log(prev, curr)
+        return curr + prev;
+    },'');
+    console.log(`Reverse of ${str} is ${revStr}`)
+</script>

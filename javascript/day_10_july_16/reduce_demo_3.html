@@ -1,0 +1,14 @@
+<script>
+    let str = 'entertainment';
+
+    let res = str.split('').reduce((charMap, char) => {
+        console.log(charMap, char)
+        if (charMap[char]) {
+            charMap[char] = charMap[char] + 1;
+        } else {
+            charMap[char] = 1;
+        }
+        return charMap;
+    }, {});
+    console.log(res);
+</script>
