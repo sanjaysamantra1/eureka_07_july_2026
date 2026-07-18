@@ -1,0 +1,19 @@
+<script>
+    // Set is used to maintain unique elemnts
+    let carSet = new Set();
+    carSet.add('Tata')
+    carSet.add('Honda')
+    carSet.add('Maruti')
+    carSet.add('Tata')
+    carSet.add('Honda')
+    carSet.add('Maruti')
+    carSet.add('Maruti')
+    console.log(carSet);
+
+    console.log(carSet.size);  // 3
+    carSet.delete('Maruti');
+
+    console.log(carSet);
+    carSet.clear();
+    console.log(carSet);
+</script>

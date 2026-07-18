@@ -1,0 +1,18 @@
+<script>
+    // To maintain data in key:value format
+
+    let user = new Map();
+    console.log(user);
+
+    user.set('name', 'Sanjay');
+    user.set('role', 'trainer');
+    user.set('add', 'bangalore');
+    console.log(user);
+
+    // to read data from map
+    console.log(user.get('name'));
+
+    // to check if a key is present?
+    console.log(user.has('name')); // true
+    console.log(user.has('dob')); // false
+</script>
