@@ -1,0 +1,14 @@
+<script>
+    // ... spread operator = to spread/break array/object data into individual elements
+    console.log(Math.max(20, 40, 10, 30)); // 40
+
+    let arr = [20, 40, 10, 30];
+    console.log(Math.max(arr)); // NaN
+    console.log(Math.max(...arr)); // 40  // here ... is spread operator, calling a function
+
+    /* 
+    here ... is REST parameter, as its parameter of the function
+    function max(...arr){ // REST 
+    } 
+     */
+</script>

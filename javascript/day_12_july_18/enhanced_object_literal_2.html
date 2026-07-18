@@ -1,0 +1,17 @@
+<script>
+    function getLaptop(company, model, year, price) {
+        // es_5
+        return {
+            company: company,
+            model: model,
+            year: year,
+            price: price,
+        }
+    }
+    function createLaptop(company, model, year, price) {
+        // es_6
+        return { company, model, year, price }
+    }
+    console.log(getLaptop('HP', 'ProBook', 2022, 40000))
+    console.log(createLaptop('HP', 'ProBook', 2022, 40000))
+</script>
