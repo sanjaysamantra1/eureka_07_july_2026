@@ -1,0 +1,33 @@
+<script>
+    /* 
+        1. properties & methods are inherited from parent to child
+        2. code re-usability
+        3. is-a relationship
+    */
+    class Person {
+        constructor(name, age, add) {
+            this.name = name;
+            this.age = age;
+            this.add = add;
+        }
+    }
+    class Student extends Person {
+        constructor(name, age, add, roll, course) {
+            super(name, age, add); // parent constructor
+            this.roll = roll;
+            this.course = course;
+        }
+    }
+    let std = new Student('anji', 24, 'tennessee', 101, 'UI_UX')
+    console.log(std);
+
+    class Employee extends Person {
+        constructor(name, age, add, eid, salary) {
+            super(name, age, add); // parent constructor
+            this.eid = eid;
+            this.salary = salary;
+        }
+    }
+    let emp = new Employee('Sanjay', 55, 'bangalore', 'e102', 30000);
+    console.log(emp)
+</script>
