@@ -1,0 +1,8 @@
+<script>
+    function RestDemo(a, b, ...c) {
+        console.log(a, b, c);
+    }
+    RestDemo(10, 20, 30, 40, 50);  // 10  20  [30,40,50]
+
+    // Note: Uncaught SyntaxError: Rest parameter must be last formal parameter
+</script>

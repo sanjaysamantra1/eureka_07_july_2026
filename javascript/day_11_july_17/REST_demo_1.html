@@ -1,0 +1,22 @@
+<script>
+    function add(a, b) { // it can add only 2 numbers 
+        console.log(a + b);
+    }
+    add(10, 20);  // 30
+    add(10, 20, 30);  // 30
+    add(10, 20, 30, 40);  // 30
+
+
+    function sum(...arr) { // it can add any number of params, arr is Rest param
+        let res = 0;
+        for (ele of arr) {
+            res = res + ele;
+        }
+        console.log(`Sum is: ${res}`)
+    }
+    sum();
+    sum(10, 20)
+    sum(10, 20, 30)
+    sum(10, 20, 30, 40)
+    sum(10, 20, 30, 40, 50)
+</script>
