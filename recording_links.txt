@@ -45,3 +45,7 @@ Passcode: L!9c6zJ3
 day_12_july_18:
 https://zoom.us/rec/share/Q8S9Y5kxNuG2Qg68_u08xmCNjKIybFlsANrCWD0YgzRZdY8bTrrVKS836-Pl9IHI.e_DVKamTU5gtt4Y- 
 Passcode: YV&M3hP$
+
+day_13_july_23(Angular-1):
+https://zoom.us/rec/share/e0lx7YllOhJUgmTkCAF6CyPSJ_YSHUTjoc_QdmwG0Ttq1jORhXyDX4o2lxmW_Gc.7qEVIOXI89-8P-8G 
+Passcode: h*0for2d
