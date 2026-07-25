@@ -53,3 +53,7 @@ Passcode: h*0for2d
 day_14_july_24(Angular-2):
 https://zoom.us/rec/share/PuE_dQTMKXz_7AwDvhJc2dfmqpo28IdAXQBCHzDYxmNH1-hYjMH95qJoTak7PVb4.lmPS97ZInVDOz7qk 
 Passcode: c%!$5Z5m
+
+day_15_july_25(Angular-3):
+https://zoom.us/rec/share/yt8FbghDELXmgjs8hc1xurUUc8bt1_UdVEQS2BlUuJM1GWxSmK5HdDIFwSR0xlnd.7PTjoDRk6zwkgWP8 
+Passcode: uL!N3@=7
