@@ -36,3 +36,17 @@
     {{flag ? 'SHOW' : 'HIDE'}}
   </button>
 </div>
+
+<div class="border border-2 rounded-2 p-2 m-2">
+  <div>2. Create a dropdown with state names; when the user changes the dropdown value, print the selected value in a
+    div.</div>
+
+  <select (change)="stateChanged($event)">
+    <option>State-1</option>
+    <option>State-2</option>
+    <option>State-3</option>
+    <option>State-4</option>
+    <option>State-5</option>
+  </select>
+  <div>Selected State: {{selectedState}}</div>
+</div>
