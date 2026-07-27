@@ -54,13 +54,31 @@
 <div class="border border-2 rounded-2 m-2 p-2">
   <div>Employee Table::</div>
   <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>SL#</th>
+        <th>Emp id</th>
+        <th>Name</th>
+        <th>gender</th>
+        <th>Salary</th>
+        <th>is First?</th>
+        <th>is Last?</th>
+        <th>is Even?</th>
+        <th>is Odd?</th>
+      </tr>
+    </thead>
     <tbody>
       @for (emp of employees; track $index) {
         <tr>
+          <td>{{$index + 1}}</td>
           <td>{{emp.eId}}</td>
           <td>{{emp.name}}</td>
           <td>{{emp.gender}}</td>
           <td>{{emp.sal}}</td>
+          <td>{{$first}}</td>
+          <td>{{$last}}</td>
+          <td>{{$even}}</td>
+          <td>{{$odd}}</td>
         </tr>
       }
     </tbody>
