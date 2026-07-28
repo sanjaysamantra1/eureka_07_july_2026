@@ -1,0 +1,40 @@
+<h3 class="text-center">Product List</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 offset-3">
+      <input type="search" class="form-control" placeholder="Search...">
+    </div>
+    <div class="col-sm-3">
+      <button class="btn btn-primary">Sort Asc</button>
+      <button class="btn btn-secondary mx-1">Sort Desc</button>
+    </div>
+  </div>
+  <div class="row mt-2">
+    @for (product of productArr | paginate: { itemsPerPage: 4, currentPage: p}; track $index) {
+      <div class="col-sm-3">
+        <div class="card text-center mb-4">
+          <img src="{{product.image}}" class="card-img-top" alt="..." height="200">
+          <div class="card-body">
+            <h5 class="card-title">{{product.category}}</h5>
+            <p class="card-text text-truncate">{{product.title}}</p>
+            <p class="card-text text-truncate">{{product.description}}</p>
+            <p class="card-text">
+              <fa-icon [icon]="faInr"></fa-icon>{{product.price}}
+            </p>
+            <p class="card-text">
+              {{product.rating.rate}}
+              <fa-icon [icon]="faStar"></fa-icon>
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+  <div class="row">
+    <div class="col-sm-6 offset-4">
+      <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+  </div>
+</div>
