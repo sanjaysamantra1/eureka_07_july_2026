@@ -3,12 +3,19 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6 offset-3">
-      <input type="search" class="form-control" placeholder="Search...">
+      <input type="search" class="form-control"
+            placeholder="Search..." appCharonly appDisableCopyPaste />
     </div>
     <div class="col-sm-3">
       <button class="btn btn-primary">Sort Asc</button>
       <button class="btn btn-secondary mx-1">Sort Desc</button>
     </div>
+  </div>
+  <div class="row my-3">
+   <div class="col-sm-6">
+     <button class="btn btn-success mx-1" (click)="openSweetAlert()">openSweetAlert</button>
+     <button class="btn btn-primary" (click)="openSnackBar()">openSnackBar</button>
+   </div>
   </div>
   <div class="row mt-2">
     @for (product of productArr | paginate: { itemsPerPage: 4, currentPage: p}; track $index) {
