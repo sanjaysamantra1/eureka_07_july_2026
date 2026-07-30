@@ -1,3 +1,4 @@
+import { PipeDemo } from './../pipe-demo/pipe-demo';
 import { Component } from '@angular/core';
 import { Databinding } from '../databinding/databinding';
 import { DirectivesDemo } from '../directives-demo/directives-demo';
@@ -10,7 +11,8 @@ import { ProductList } from '../product-list/product-list';
     Databinding,
     DirectivesDemo,
     TaskList,
-    ProductList
+    ProductList,
+    PipeDemo
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',

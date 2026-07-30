@@ -73,3 +73,7 @@ Passcode: Hu3R*$54
 day_19_july_29(Angular-7):
 https://zoom.us/rec/share/V_G5oGSkJoKbXkywfrPHqCuLk7Z1NiH6_9Ph1HOQdw5icZU11d-WWy3NhlnKYE2k.chtJ1KMwAMrNKd8y 
 Passcode: Vj2tCW*c
+
+day_20_july_30(Angular-8):
+https://zoom.us/rec/share/zUzNIlSh0ALQsVx1cTU7kvRfj8nrlw6DQptWPrXubnr_LY1vVoUxIh8wo3AeVuqX.NH9oEWTq2HA-zmjo 
+Passcode: U$31.Un1
