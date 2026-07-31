@@ -85,7 +85,23 @@
 
 <div class="border border-3 rounded-3 p-3 m-3">
   <h4>Custom Pipe(remaining)</h4>
+  <div class="my-1">
+    <input [(ngModel)]="userName">
+  </div>
   <textarea [(ngModel)]="msg" maxlength="100"></textarea>
   <div>Msg: {{msg}}</div>
   <div>Remaining Chars: {{msg | remaining}}</div>
+</div>
+
+<div class="border border-3 rounded-3 p-3 m-3">
+  <h4>Pure & Impure Pipe</h4>
+  <div>Array Items::</div>
+  @for (item of arr | mySort; track $index) {
+    <b>{{item}} &nbsp;</b>
+  }
+  <div>
+    <input type="number" #newNum />
+    <button class="btn btn-primary mx-2" (click)="arr.push(+newNum.value)">Add</button>
+    <!-- When a new item is added to array, pure pipe doesn't recognize that -->
+  </div>
 </div>
