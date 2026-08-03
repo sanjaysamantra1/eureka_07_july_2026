@@ -2,7 +2,7 @@
   <div class="row text-center">
     <div >This is Parent Component</div>
     <div>My own data a is {{a}}</div>
-    <div><input type="number" [(ngModel)]="a"></div>
+    <div><input type="number" [(ngModel)]="a" #myInputBox></div>
     <button (click)="f1()" class="btn btn-primary col-sm-1 offset-4 mx-1">Click me</button>
     <button (click)="addItemToCart()" class="btn btn-primary col-sm-1">Add to Cart</button>
     <div>My child2's data b is {{child2.b}}</div>

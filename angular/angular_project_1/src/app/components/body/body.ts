@@ -5,6 +5,8 @@ import { DirectivesDemo } from '../directives-demo/directives-demo';
 import { TaskList } from '../task-list/task-list';
 import { ProductList } from '../product-list/product-list';
 import { ParentDemo } from '../parent-demo/parent-demo';
+import { Login } from '../login/login';
+import { Logout } from '../logout/logout';
 
 @Component({
   selector: 'app-body',
@@ -14,9 +16,13 @@ import { ParentDemo } from '../parent-demo/parent-demo';
     TaskList,
     ProductList,
     PipeDemo,
-    ParentDemo
+    ParentDemo,
+    Login,
+    Logout
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
 })
-export class Body {}
+export class Body {
+  flag = true;
+}
