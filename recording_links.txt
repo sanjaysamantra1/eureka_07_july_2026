@@ -85,3 +85,7 @@ Passcode: 9ix.yDCy
 day_22_aug_02(Angular-10):
 https://zoom.us/rec/share/K5yPnhADyHseS7vCPgYcj9Mkj_hB0c3Mby5zxwE5eGrgEjLi54xQIbNqGFE8zsny.roV7Xq7TIaR6a6bc 
 Passcode: +#s0x86S
+
+day_23_aug_03(Angular-11):
+https://zoom.us/rec/share/Fvh_zgbKQ6JRSvfgrlyTA_tqidYYJSn36hsuuxgmbW7dqlIjl2hpWmnVu1Arz4EP.2f_akVfag02ZyL-p 
+Passcode: !^q473Me
