@@ -7,6 +7,7 @@ import { ProductList } from '../product-list/product-list';
 import { ParentDemo } from '../parent-demo/parent-demo';
 import { Login } from '../login/login';
 import { Logout } from '../logout/logout';
+import { CommentList } from '../comment-list/comment-list';
 
 @Component({
   selector: 'app-body',
@@ -18,7 +19,8 @@ import { Logout } from '../logout/logout';
     PipeDemo,
     ParentDemo,
     Login,
-    Logout
+    Logout,
+    CommentList
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',

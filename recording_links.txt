@@ -89,3 +89,7 @@ Passcode: +#s0x86S
 day_23_aug_03(Angular-11):
 https://zoom.us/rec/share/Fvh_zgbKQ6JRSvfgrlyTA_tqidYYJSn36hsuuxgmbW7dqlIjl2hpWmnVu1Arz4EP.2f_akVfag02ZyL-p 
 Passcode: !^q473Me
+
+day_24_aug_04(Angular-12):
+https://zoom.us/rec/share/I5pNKlMbKlfjgDultwyzHXdx_Jf9GdI9snvCgZFvs6DPtGKjeLZgMljR8_48XgoO.ZMA9OAIq25iipGdy 
+Passcode: x36^y0b$
