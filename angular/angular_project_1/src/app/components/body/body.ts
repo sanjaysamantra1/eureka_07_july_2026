@@ -8,6 +8,7 @@ import { ParentDemo } from '../parent-demo/parent-demo';
 import { Login } from '../login/login';
 import { Logout } from '../logout/logout';
 import { CommentList } from '../comment-list/comment-list';
+import { ProductListHttp } from '../product-list-http/product-list-http';
 
 @Component({
   selector: 'app-body',
@@ -20,7 +21,8 @@ import { CommentList } from '../comment-list/comment-list';
     ParentDemo,
     Login,
     Logout,
-    CommentList
+    CommentList,
+    ProductListHttp
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
