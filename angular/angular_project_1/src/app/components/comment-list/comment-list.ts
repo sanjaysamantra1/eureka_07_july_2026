@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Comment } from '../../models/comment';
 
 @Component({
   selector: 'app-comment-list',
@@ -13,11 +14,12 @@ export class CommentList {
   comment_api = 'https://jsonplaceholder.typicode.com/comments';
 
   httpClient = inject(HttpClient);
-  commentList!: Observable<any>;
+  commentList!: Observable<Comment[]>;
+  // Increases readability & maintainability
 
   ngOnInit() {
     // httpClient.get() returns Observable
-    this.commentList = this.httpClient.get(this.comment_api);
+    this.commentList = this.httpClient.get<Comment[]>(this.comment_api);
     console.log(this.commentList);
   }
 }

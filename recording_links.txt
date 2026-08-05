@@ -93,3 +93,7 @@ Passcode: !^q473Me
 day_24_aug_04(Angular-12):
 https://zoom.us/rec/share/I5pNKlMbKlfjgDultwyzHXdx_Jf9GdI9snvCgZFvs6DPtGKjeLZgMljR8_48XgoO.ZMA9OAIq25iipGdy 
 Passcode: x36^y0b$
+
+day_25_aug_05(Angular-13):
+https://zoom.us/rec/share/bCbbHdiVQ8rEtZxEMsBxmm24KHoZPymdBSQpTy94yRkGQWmZLBJBzOxCHiG49HAf.rtbOt__nhD_zyFy4 
+Passcode: 1=^EBZEO
