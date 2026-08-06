@@ -14,17 +14,17 @@ import { EmployeeListHttp } from '../employee-list-http/employee-list-http';
 @Component({
   selector: 'app-body',
   imports: [
-    Databinding,
-    DirectivesDemo,
-    TaskList,
-    ProductList,
-    PipeDemo,
-    ParentDemo,
-    Login,
-    Logout,
+    // Databinding,
+    // DirectivesDemo,
+    // TaskList,
+    // ProductList,
+    // PipeDemo,
+    // ParentDemo,
+    // Login,
+    // Logout,
     CommentList,
     ProductListHttp,
-    EmployeeListHttp
+    // EmployeeListHttp
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',

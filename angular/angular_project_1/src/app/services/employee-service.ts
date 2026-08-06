@@ -15,6 +15,7 @@ export class EmployeeService {
     // Service should convert each response to Employee Object and return
     return this.httpClient.get<Employee[]>(this.employee_api).pipe(
       map((responseArr: Employee[]) => {
+        console.log('responseArr::',responseArr)
         return responseArr.map((responseObj: Employee) => new Employee(responseObj));
       }),
     );
