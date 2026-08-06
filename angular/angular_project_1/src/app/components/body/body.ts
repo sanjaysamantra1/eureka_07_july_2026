@@ -9,6 +9,7 @@ import { Login } from '../login/login';
 import { Logout } from '../logout/logout';
 import { CommentList } from '../comment-list/comment-list';
 import { ProductListHttp } from '../product-list-http/product-list-http';
+import { EmployeeListHttp } from '../employee-list-http/employee-list-http';
 
 @Component({
   selector: 'app-body',
@@ -22,7 +23,8 @@ import { ProductListHttp } from '../product-list-http/product-list-http';
     Login,
     Logout,
     CommentList,
-    ProductListHttp
+    ProductListHttp,
+    EmployeeListHttp
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
