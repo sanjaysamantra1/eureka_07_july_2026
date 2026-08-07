@@ -10,6 +10,8 @@ import { Logout } from '../logout/logout';
 import { CommentList } from '../comment-list/comment-list';
 import { ProductListHttp } from '../product-list-http/product-list-http';
 import { EmployeeListHttp } from '../employee-list-http/employee-list-http';
+import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
+import { ObservableDemo2 } from '../observable-demo2/observable-demo2';
 
 @Component({
   selector: 'app-body',
@@ -22,9 +24,11 @@ import { EmployeeListHttp } from '../employee-list-http/employee-list-http';
     // ParentDemo,
     // Login,
     // Logout,
-    CommentList,
-    ProductListHttp,
+    // CommentList,
+    // ProductListHttp,
     // EmployeeListHttp
+    // ObservableDemo1
+    ObservableDemo2
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',

@@ -3,7 +3,7 @@ import { inject, Service } from '@angular/core';
 
 @Service()
 export class ProductService {
-  product_api = 'https://fakestoreapi.com/roducts';
+  product_api = 'https://fakestoreapi.com/product';
   httpClient = inject(HttpClient);
 
   getAllProducts() {
