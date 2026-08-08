@@ -1,3 +1,5 @@
+import { ObservableDemo3 } from './../observable-demo3/observable-demo3';
+import { ObservableDemo2 } from './../observable-demo2/observable-demo2';
 import { PipeDemo } from './../pipe-demo/pipe-demo';
 import { Component } from '@angular/core';
 import { Databinding } from '../databinding/databinding';
@@ -11,7 +13,7 @@ import { CommentList } from '../comment-list/comment-list';
 import { ProductListHttp } from '../product-list-http/product-list-http';
 import { EmployeeListHttp } from '../employee-list-http/employee-list-http';
 import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
-import { ObservableDemo2 } from '../observable-demo2/observable-demo2';
+import { ObservableDemo4 } from '../observable-demo4/observable-demo4';
 
 @Component({
   selector: 'app-body',
@@ -28,7 +30,9 @@ import { ObservableDemo2 } from '../observable-demo2/observable-demo2';
     // ProductListHttp,
     // EmployeeListHttp
     // ObservableDemo1
-    ObservableDemo2
+    // ObservableDemo2
+    // ObservableDemo3
+    ObservableDemo4
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
