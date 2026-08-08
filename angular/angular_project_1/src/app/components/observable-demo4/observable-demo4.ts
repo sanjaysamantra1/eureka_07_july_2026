@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormGroup, FormControl, ReactiveFormsModule } from '@angular/forms';
-import { Observable, switchMap, map } from 'rxjs';
+import { Observable, switchMap, map, exhaustMap, fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-observable-demo4',
@@ -26,4 +26,17 @@ export class ObservableDemo4 {
       map((response: any) => (response.users.length > 0 ? response.users : [])),
     );
   }
+
+  // ==============Exhaust map=========================
+  @ViewChild('loginBtn') loginBtn!: ElementRef;
+
+  ngAfterViewInit() {
+    fromEvent(this.loginBtn.nativeElement, 'click').pipe(exhaustMap((val) => {
+      return this.http.get('https://httpbin.org/delay/5'); // Dummy Login API
+    })).subscribe({
+      next: (res) => console.log('Response:', res),
+      error: (err) => console.error('Error:', err),
+    })
+  }
+
 }
