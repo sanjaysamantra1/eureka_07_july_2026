@@ -16,6 +16,7 @@ import { EmployeeListHttp } from '../employee-list-http/employee-list-http';
 import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
 import { ObservableDemo4 } from '../observable-demo4/observable-demo4';
 import { SignalDemo1 } from '../signal-demo1/signal-demo1';
+import { SignalDemo2 } from '../signal-demo2/signal-demo2';
 
 @Component({
   selector: 'app-body',
@@ -36,7 +37,8 @@ import { SignalDemo1 } from '../signal-demo1/signal-demo1';
     // ObservableDemo3
     // ObservableDemo4
     // SubjectDemo1
-    SignalDemo1
+    // SignalDemo1
+    SignalDemo2
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
