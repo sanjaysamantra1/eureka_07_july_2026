@@ -1,3 +1,4 @@
+import { FormDemo1 } from './../form-demo1/form-demo1';
 import { SubjectDemo1 } from './../subject-demo1/subject-demo1';
 import { ObservableDemo3 } from './../observable-demo3/observable-demo3';
 import { ObservableDemo2 } from './../observable-demo2/observable-demo2';
@@ -18,6 +19,7 @@ import { ObservableDemo4 } from '../observable-demo4/observable-demo4';
 import { SignalDemo1 } from '../signal-demo1/signal-demo1';
 import { SignalDemo2 } from '../signal-demo2/signal-demo2';
 import { SignalDemo3 } from '../signal-demo3/signal-demo3';
+import { TemplateForm } from '../template-form/template-form';
 
 @Component({
   selector: 'app-body',
@@ -40,7 +42,9 @@ import { SignalDemo3 } from '../signal-demo3/signal-demo3';
     // SubjectDemo1
     // SignalDemo1
     // SignalDemo2
-    SignalDemo3
+    // SignalDemo3
+    // FormDemo1
+    TemplateForm
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
