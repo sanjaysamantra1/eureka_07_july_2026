@@ -1,3 +1,4 @@
+import { DynamicForm } from './../dynamic-form/dynamic-form';
 import { FormDemo1 } from './../form-demo1/form-demo1';
 import { SubjectDemo1 } from './../subject-demo1/subject-demo1';
 import { ObservableDemo3 } from './../observable-demo3/observable-demo3';
@@ -46,7 +47,8 @@ import { ModelForm } from '../model-form/model-form';
     // SignalDemo3
     // FormDemo1
     // TemplateForm
-    ModelForm
+    // ModelForm,
+    DynamicForm
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
