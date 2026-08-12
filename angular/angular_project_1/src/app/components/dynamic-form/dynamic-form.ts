@@ -10,7 +10,7 @@ import { FormGroup, FormBuilder, FormArray, ReactiveFormsModule } from '@angular
 })
 export class DynamicForm {
   empForm: FormGroup;
-  
+
   constructor(private fb: FormBuilder) {
     this.empForm = this.fb.group({
       employees: this.fb.array([]),
@@ -30,6 +30,7 @@ export class DynamicForm {
   }
 
   addEmployee() {
+    console.log(this.getAllEmployees())
     this.getAllEmployees().push(this.createNewEmployee());
   }
 

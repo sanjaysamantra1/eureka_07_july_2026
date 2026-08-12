@@ -22,6 +22,7 @@ import { SignalDemo2 } from '../signal-demo2/signal-demo2';
 import { SignalDemo3 } from '../signal-demo3/signal-demo3';
 import { TemplateForm } from '../template-form/template-form';
 import { ModelForm } from '../model-form/model-form';
+import { SignalForm } from '../signal-form/signal-form';
 
 @Component({
   selector: 'app-body',
@@ -48,7 +49,8 @@ import { ModelForm } from '../model-form/model-form';
     // FormDemo1
     // TemplateForm
     // ModelForm,
-    DynamicForm
+    // DynamicForm
+    SignalForm
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
