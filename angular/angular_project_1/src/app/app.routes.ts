@@ -6,6 +6,7 @@ import { Routes } from '@angular/router';
 import { Notfound } from './components/notfound/notfound';
 import { UserList } from './components/user-list/user-list';
 import { ProductList } from './components/product-list/product-list';
+import { UserDetails } from './components/user-details/user-details';
 
 export const routes: Routes = [
   { path: 'home', component: Home },
@@ -13,6 +14,7 @@ export const routes: Routes = [
   { path: 'careers', component: Careers },
   { path: 'contactus', component: Contactus },
   { path: 'users', component: UserList },
+  { path: 'userdetails/:id', component: UserDetails },
   { path: 'products', component: ProductList },
   { path: '', component: Home },
   { path: '**', component: Notfound },

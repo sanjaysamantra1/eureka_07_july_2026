@@ -13,7 +13,7 @@
           <p class="card-text text-truncate">{{user.phone}}</p>
           <p class="card-text text-truncate">{{user.email}}</p>
           <p class="card-text text-truncate">{{user.address.city}}</p>
-          <button>Details</button>
+          <button class="btn btn-primary" [routerLink]="['/userdetails',user.id]">Details</button>
         </div>
       </div>
     </div>
