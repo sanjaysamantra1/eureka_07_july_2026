@@ -8,6 +8,7 @@ import Swal from 'sweetalert2';
 import Snackbar from 'awesome-snackbar';
 import { Charonly } from '../../directives/charonly';
 import { DisableCopyPaste } from '../../directives/disable-copy-paste';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -15,7 +16,8 @@ import { DisableCopyPaste } from '../../directives/disable-copy-paste';
     FontAwesomeModule,
     NgxPaginationModule,
     Charonly,
-    DisableCopyPaste
+    DisableCopyPaste,
+    RouterLink
   ],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',
