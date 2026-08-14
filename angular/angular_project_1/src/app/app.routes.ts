@@ -12,6 +12,7 @@ import { PermanentJobs } from './components/permanent-jobs/permanent-jobs';
 import { ContractJobs } from './components/contract-jobs/contract-jobs';
 import { UploadVideos } from './components/upload-videos/upload-videos';
 import { trainerGuard } from './guards/trainer-guard';
+import { canExitGuard } from './guards/can-exit-guard';
 
 export const routes: Routes = [
   { path: 'home', component: Home },
@@ -24,7 +25,11 @@ export const routes: Routes = [
       { path: 'contract', component: ContractJobs },
     ],
   },
-  { path: 'contactus', component: Contactus },
+  {
+    path: 'contactus',
+    component: Contactus,
+    canDeactivate: [canExitGuard],
+  },
   { path: 'users', component: UserList },
   { path: 'userdetails/:id', component: UserDetails },
   { path: 'products', component: ProductList },
