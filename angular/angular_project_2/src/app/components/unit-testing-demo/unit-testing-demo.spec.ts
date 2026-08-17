@@ -6,7 +6,11 @@ describe('UnitTestingDemo', () => {
   let component: UnitTestingDemo;
   let fixture: ComponentFixture<UnitTestingDemo>;
 
+  beforeAll(() => {
+    console.log('Before All...');
+  });
   beforeEach(async () => {
+    console.log('Before Each...');
     await TestBed.configureTestingModule({
       imports: [UnitTestingDemo],
     }).compileComponents();
@@ -16,11 +20,20 @@ describe('UnitTestingDemo', () => {
     await fixture.whenStable();
   });
 
+  afterEach(() => {
+    console.log('After Each...');
+  });
+  afterAll(() => {
+    console.log('After All...');
+  });
+
   it('should create', () => {
+    console.log('It-1')
     expect(component).toBeTruthy();
   });
 
   it('should test add function', () => {
+    console.log('It-2')
     expect(component.add(10, 20)).toBe(30);
     expect(component.add(10, -20)).toBe(-10);
     expect(component.add(-10, -20)).toBe(-30);
@@ -28,10 +41,12 @@ describe('UnitTestingDemo', () => {
   });
 
   it('should test sumOfDigits function', () => {
+    console.log('It-3')
     expect(component.sumOfDigits(125)).toBe(8);
   });
 
   it('should test addNewCar function', () => {
+    console.log('It-4')
     expect(component.cars).toBeDefined();
     expect(component.cars).toBeInstanceOf(Array);
     expect(component.cars.length).toBe(2);
