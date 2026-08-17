@@ -25,4 +25,13 @@ export class UnitTestingDemo {
   addNewCar(newCar: string) {
     this.cars.push(newCar);
   }
+
+  processData(data: any) {
+    console.log('Processing data:', data);
+    return data.length;
+  }
+  fetchData() {
+    const data = ['item1', 'item2', 'item3'];
+    return this.processData(data);
+  }
 }
