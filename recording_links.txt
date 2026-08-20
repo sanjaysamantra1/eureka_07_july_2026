@@ -154,3 +154,7 @@ Passcode: ^rA3nus%
 day_39_aug_19(Angular-27):
 https://zoom.us/rec/share/Q4WXDZJhoyjOh7jyWwAOVwRDNJltffmLpvsWP8vTM0BggZgsdB6L_HcpQglfWudB.Q78j8u6TDcYp3RTs 
 Passcode: A*4aMaa%
+
+day_40_aug_20(Angular-28):
+https://zoom.us/rec/share/MZnr_mVIlZuwq7eSJGfLD34L5BuVZLU09UmY8eyH_DxZmZ3n-LKMRAd2XM5-ViiF.WzAWMsiFdwXJ7c21 
+Passcode: Db#0=dg*
